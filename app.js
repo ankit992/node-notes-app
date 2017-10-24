@@ -28,6 +28,7 @@ const argv = yargs
     })
     .help()
     .argv;
+    
 var command = argv._[0];
 
 if(command === 'add') {
